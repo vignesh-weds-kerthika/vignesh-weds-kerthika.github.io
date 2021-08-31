@@ -355,14 +355,14 @@ $(window).on('load', function() {
           }
      });
      var directionsService = new google.maps.DirectionsService;
-     var latlng = new google.maps.LatLng(9.8857518, 78.1178544);
+     var latlng = new google.maps.LatLng(9.6070256,78.7112692);
      map = new google.maps.Map(document.getElementById('map-canvas'),{
          zoom:7
      });
  infoWindow = new google.maps.InfoWindow;
 
  var image_church  = new google.maps.MarkerImage("static/img/marker-church.png", null, null, null, new google.maps.Size(33,50));
-         var positionpin_church  = new google.maps.LatLng(9.8857518, 78.1178544);
+         var positionpin_church  = new google.maps.LatLng(9.6070256,78.7112692);
          var marker_church  = new google.maps.Marker({
            position: positionpin_church ,
            icon: image_church ,
