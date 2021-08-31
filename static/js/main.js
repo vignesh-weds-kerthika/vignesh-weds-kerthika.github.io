@@ -58,7 +58,7 @@ $(window).on('load', function() {
      //Google maps
      //Map
      var map;
-     var odessa = new google.maps.LatLng(12.2409385,79.034233);
+     var odessa = new google.maps.LatLng(9.8857518, 78.1178544);
  
      var MY_MAPTYPE_ID = 'custom_style';
  
@@ -362,7 +362,7 @@ $(window).on('load', function() {
  infoWindow = new google.maps.InfoWindow;
 
  var image_church  = new google.maps.MarkerImage("static/img/marker-church.png", null, null, null, new google.maps.Size(33,50));
-         var positionpin_church  = new google.maps.LatLng(13.1018843,80.156587);
+         var positionpin_church  = new google.maps.LatLng(9.8857518, 78.1178544);
          var marker_church  = new google.maps.Marker({
            position: positionpin_church ,
            icon: image_church ,
