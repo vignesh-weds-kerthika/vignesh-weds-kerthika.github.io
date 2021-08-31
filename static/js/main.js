@@ -58,7 +58,7 @@ $(window).on('load', function() {
      //Google maps
      //Map
      var map;
-     var odessa = new google.maps.LatLng(9.8857518, 78.1178544);
+     var odessa = new google.maps.LatLng(9.6070256,78.7112692);
  
      var MY_MAPTYPE_ID = 'custom_style';
  
@@ -472,7 +472,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay,pos,Manda
         }
       });
      var directionsService = new google.maps.DirectionsService;
-     var latlng = new google.maps.LatLng(9.8857518, 78.1178544);
+     var latlng = new google.maps.LatLng(9.6070256,78.7112692);
      map = new google.maps.Map(document.getElementById('map-canvas'),{
          zoom:7
      });
