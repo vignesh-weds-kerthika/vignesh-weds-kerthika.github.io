@@ -332,7 +332,7 @@ $(window).on('load', function() {
                  }
              });
                      
-             var ts = +new Date("September 15, 2021 7:30 GMT+5:30");
+             var ts = +new Date("September 16, 2021 9:30 GMT+5:30");
              var date_now = new Date();
              var seconds = Math.floor((ts - (date_now))/1000);
              //console.log(seconds);
